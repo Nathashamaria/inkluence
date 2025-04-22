@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inkfluence - Content Curation & Creation</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #f4c542; /* Warm Yellow */
+            color: #fff;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        /* Why Choose Us Section */
+        .why-choose-us {
+            background-color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .why-choose-us h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .why-choose-us p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .why-choose-us button {
+            background-color: #f4c542;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Services Section */
+        .services {
+            background-color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .service-list {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .service {
+            background-color: #eee;
+            padding: 30px;
+            border-radius: 8px;
+            width: 30%;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            font-size: 1.1rem;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            background-color: #f4f4f9;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .testimonial {
+            margin: 20px 0;
+            font-style: italic;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: #f4c542;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Welcome to Inkfluence</h1>
+            <p>Your one-stop solution for content curation, writing, and more!</p>
+        </div>
+    </header>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2>Why Choose Inkfluence?</h2>
+            <p>We specialize in content curation and creation that helps your brand shine online. Whether it’s social media profiles, blog posts, or speeches, we’ve got you covered.</p>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service">
+                    <h3>Social Media Curation</h3>
+                    <p>Let us manage your social presence with tailored posts and consistent branding.</p>
+                </div>
+                <div class="service">
+                    <h3>Blog Writing & Articles</h3>
+                    <p>Engaging articles and blog posts that represent your brand voice.</p>
+                </div>
+                <div class="service">
+                    <h3>Speechwriting & Scripts</h3>
+                    <p>Powerful speeches and scripts that captivate your audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial">
+                <p>"Inkfluence has transformed our content strategy! Highly recommended."</p>
+                <p>- Client 1</p>
+            </div>
+            <div class="testimonial">
+                <p>"The team at Inkfluence is brilliant at what they do! Our social media presence has never been better."</p>
+                <p>- Client 2</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Inkfluence | All Rights Reserved</p>
+            <p><a href="#">Contact Us</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll on "Get Started" button click
+        document.querySelector('button').addEventListener('click', function () {
+            window.scrollTo({
+                top: document.querySelector('.services').offsetTop,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
